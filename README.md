@@ -20,3 +20,7 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page.
+
+##Giving the instructions the password generator should look like this.
+
+![Untitled_ Apr 17, 2021 1_39 PM](https://user-images.githubusercontent.com/79770408/115121827-c2575400-9f82-11eb-86a0-ea87bced5016.gif)
