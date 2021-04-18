@@ -1,15 +1,15 @@
 // Assignment Code
 var userChoice;
-//the user will be able to get a password from the following Arrays
+//the user will be able to create a password from the following arrays.
 var lowerCharacters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 var upperCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 var num = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 var symbol = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', ',', '+', '-', '.', '/', '<', '>', '?', '~']
 var userChoiceArray = [lowerCharacters, upperCharacters, num, symbol]
-// the next function is acknowledge the user choises from the line 58 so it can be use in the next foor loop.
+// the next function is acknowledging the user choises from the line 58 so it can be use in the next foor loop.
 function charactersSelected(userChoice, lower, upper, number, sym) {
   var password = ""
-//this is a foor loop creating the password base with lenght, lower , upper , numbers and symbols that the user had picked.
+//this is a foor loop creating the password base with lenght, lowercase , uppercase , numbers and symbols that the user had picked.
   for (var i = password.length; password.length < userChoice; i++) {
     if (lower && password.length < userChoice) {
       var i = Math.floor(Math.random() * lowerCharacters.length)
@@ -36,7 +36,7 @@ function charactersSelected(userChoice, lower, upper, number, sym) {
 
 var generateBtn = document.querySelector("#generate");
 
-/* the next function is going to produce a few question to the user with prompt, alert and confirm method
+/* the next function is going to produce a few question for the user with prompt, alert and confirm method
  to know what the user wants in the following password */
 
 function generatePassword() {

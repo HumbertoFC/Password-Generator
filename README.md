@@ -1,4 +1,4 @@
-Password Generator
+# Password Generator
 
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
@@ -21,6 +21,9 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page.
 
-## Giving the instructions the password generator should look like this.
+### Giving the instructions the password generator should look like this:
+
+You can also try it out here: https://humbertofc.github.io/Password-Generator/
+
 
 ![Untitled_ Apr 17, 2021 1_39 PM](https://user-images.githubusercontent.com/79770408/115121827-c2575400-9f82-11eb-86a0-ea87bced5016.gif)
